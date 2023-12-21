@@ -48,5 +48,5 @@ document.addEventListener('DOMContentLoaded', function () {
         chatMessages.scrollTop = chatMessages.scrollHeight;
     }
 
-    window.sendMessage = sendMessage; // Expose function for testing purposes
+    window.sendMessage = sendMessage; 
 });
